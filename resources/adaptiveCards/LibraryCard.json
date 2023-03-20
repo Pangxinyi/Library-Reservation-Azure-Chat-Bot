@@ -1,0 +1,52 @@
+{
+  "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+  "type": "AdaptiveCard",
+  "version": "1.0",
+  "body": [
+    {
+      "type": "ColumnSet",
+      "columns": [
+        {
+          "type": "Column",
+          "width": 2,
+          "items": [
+            {
+              "type": "TextBlock",
+              "text": "Library"
+            },
+            {
+              "type": "TextBlock",
+              "text": "Scott Library",
+              "weight": "bolder",
+              "size": "extraLarge",
+              "spacing": "none"
+            },
+            {
+              "type": "TextBlock",
+              "text": "Group Study | Quiet Study | Workstations",
+              "isSubtle": true,
+              "spacing": "none"
+            },
+            {
+              "type": "TextBlock",
+              "text": "The Scott Library provides access to library materials, services and research assistance for those working in the humanities, social sciences, fine arts and environmental studies. We can also help you locate published data, statistics, and government publications.",
+              "size": "small",
+              "wrap": true
+            }
+          ]
+        },
+        {
+          "type": "Column",
+          "width": 1,
+          "items": [
+            {
+              "type": "Image",
+              "url": "https://www.library.yorku.ca/web/scott/wp-content/uploads/sites/9/2014/03/Scott-Library.jpg",
+              "size": "auto"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
